@@ -9,20 +9,36 @@
 
 - Why do you like CS?
 
+- How do you like programming?
+
 - What is your favorite piece of software or hardware? Why?
 
 - How do you stay up to date with new technology?
 
 - Tell me about a coding project that you have worked on.
 
+- Tell me about some bugs you've encountered and how you approached them.
+
+- How did you refactor your code?
+
 ###Design
 - Design a remote.
 
 - Design your favorite app.
 
+- Design an elevator.
+
+- Devise a way to make sure there is always milk in my fridge.
+
+- Design and test a calculator.
+
+- How would you improve your current laptop?
+
 ###Explanations
 - Explain to me how a computer works.
-	
+
+- How would you describe a computer to a 5 year old?
+
 ###Testing
 - How would you test a water bottle?
 
@@ -37,9 +53,14 @@
 ##Data Structures
 
 ###Arrays
-- You have a sorted array A length m and a sorted array B length n. Insert array elements in order into an array C with length m+n. 
+- Sort an array of integers.
+
+- (Merge algorithm) You have a sorted array A length m and a sorted array B length n. Insert array elements in order into an array C with length m+n. 
 
 - Given an ascending sorted array of ints, write an algorithm to push all the duplicates to the back [1,2,2,4,5,5] > [1,2,4,5,2,5]
+
+###Strings
+- Given 2 strings, remove every instance of every letter in the second string from the first string. Then do it without shifting letters in the first string or creating another string. What is the most efficient way of checking if a letter in the second string is in the first string in the previous problem? What if you're using all ASCII characters? What if you're using the entire Unicode character set?  
 
 ###Dynamic Arrays
 - Implement an ArrayList in 3 different ways. Discuss the drawbacks/efficiencies of each.
@@ -47,4 +68,7 @@
 ###Linked Lists
 
 ###Hash Tables
-		
+
+###Binary Search Trees
+- Merge two BST's.
+
