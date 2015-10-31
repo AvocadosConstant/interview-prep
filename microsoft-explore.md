@@ -1,3 +1,4 @@
+#####[Back to main page](README.md)
 #Microsoft Explore
 
 -----------
@@ -60,8 +61,10 @@
 - Given an ascending sorted array of ints, write an algorithm to push all the duplicates to the back [1,2,2,4,5,5] > [1,2,4,5,2,5]
 
 ###Strings
-- Given 2 strings, remove every instance of every letter in the second string from the first string. Then do it without shifting letters in the first string or creating another string. What is the most efficient way of checking if a letter in the second string is in the first string in the previous problem? What if you're using all ASCII characters? What if you're using the entire Unicode character set?  
+- Given 2 strings, remove every instance of every letter in the second string from the first string. Then do it without shifting letters in the first string or creating another string. What is the most efficient way of checking if a letter in the second string is in the first string in the previous problem? What if you're using all ASCII characters? What if you're using the entire Unicode character set?
+
 - Given a string representing a directory path, remove any redundancies to create the smallest equivalent string.  eg. /home/user/../otheruser/./folder/../folder can be simplified to /home/user/folder
+
 - Given a string containing a roman numeral representation of a number, generate the decimal representation.  eg. XIV = (10 + 4) = 14
 
 ###Dynamic Arrays
