@@ -58,7 +58,7 @@
 
 - (Merge algorithm) You have a sorted array A length m and a sorted array B length n. Insert array elements in order into an array C with length m+n. 
 
-- Given an ascending sorted array of ints, write an algorithm to push all the duplicates to the back [1,2,2,4,5,5] > [1,2,4,5,2,5]
+- Given an ascending sorted array of ints, write an algorithm to push all the duplicates to the back [1,2,2,4,5,5] > [1,2,4,5,2,5] [*My Solution*](PushDupesToBack.java)
 
 ###Strings
 - Given 2 strings, remove every instance of every letter in the second string from the first string. Then do it without shifting letters in the first string or creating another string. What is the most efficient way of checking if a letter in the second string is in the first string in the previous problem? What if you're using all ASCII characters? What if you're using the entire Unicode character set?
