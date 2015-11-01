@@ -1,10 +1,16 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class PushDupesToBack{
 
-    //Given a sorted ascending array of integers, push all duplicates to the back.
-    //  [1,2,2,4,5,5] -> [1,2,4,5,2,5]
-    //  [1,2,3,3,3] -> [1,2,3,3,3]
+    /** Given a sorted ascending array of integers, push all duplicates to the back.
+      * Examples
+      * [1,2,2,4,5,5] -> [1,2,4,5,2,5]
+      * [1,2,3,3,3] -> [1,2,3,3,3]
+      * [1,2,2,2,3] -> [1,2,3,2,2]
+      * @param Sorted integer array
+      * @return Array with duplicates pushed to the back
+      */
     public static int[] pushDupes(int[] arr) {
         if(arr.length <= 2) return arr;
 
@@ -24,21 +30,27 @@ public class PushDupesToBack{
                 curIndex++;
             }
         }
-        for(int i = 0; i < indices.size(); i++) {
-            if(!indices.contains(i)) {
-                retArr[curIndex] = arr[indices.get(i)];;
-                curIndex++;
-            }
+        for(int i : indices) {
+            retArr[curIndex] = arr[i];;
+            curIndex++;
         }
         return retArr;
     }
 
     public static void main(String[] args) {
-        int[] testArr = {1,2,2,4,5,5};
-        int[] retArr = pushDupes(testArr);
-        System.out.println("\nOriginal Array");
-        for(int i : testArr) System.out.println(i);
-        System.out.println("\nReturned Array");
-        for(int i : retArr) System.out.println(i);
+        Scanner in = new Scanner(System.in);
+        System.out.print("\nWhat is the size of your array: ");
+        int arrSize = in.nextInt();
+        int[] inputArr = new int[arrSize];
+        for(int i = 0; i < arrSize; i++) {
+            System.out.printf("    Element %d: ", i);
+            inputArr[i] = in.nextInt();
+        }
+        int[] retArr = pushDupes(inputArr);
+        System.out.print("\nOriginal Array: |");
+        for(int i : inputArr) System.out.print(i + "|");
+        System.out.print("\nReturned Array: |");
+        for(int i : retArr) System.out.print(i + "|");
+        System.out.println("\n");
     }
 }
