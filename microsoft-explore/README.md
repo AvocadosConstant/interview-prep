@@ -56,7 +56,7 @@
 ###Arrays
 - Sort an array of integers.
 
-- (Merge algorithm) You have a sorted array A length m and a sorted array B length n. Insert array elements in order into an array C with length m+n. 
+- (Merge algorithm) You have a sorted array A length m and a sorted array B length n. Insert array elements in order into an array C with length m+n. [*My Solution*](Merge.java)
 
 - Given an ascending sorted array of ints, write an algorithm to push all the duplicates to the back [1,2,2,4,5,5] > [1,2,4,5,2,5] [*My Solution*](PushDupesToBack.java)
 
