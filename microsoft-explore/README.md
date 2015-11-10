@@ -54,7 +54,7 @@
 ##Data Structures
 
 ###Arrays
-- Sort an array of integers.
+- Sort an array of integers. [*My Solution*](MergeSort.java)
 
 - (Merge algorithm) You have a sorted array A length m and a sorted array B length n. Insert array elements in order into an array C with length m+n. [*My Solution*](Merge.java)
 

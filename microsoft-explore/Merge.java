@@ -18,6 +18,21 @@ public class Merge {
         return retArr;
     }
     
+    /** Merges two sorted arrays
+      *
+      * @param arrA a sorted Comparable array
+      * @param arrB a sorted Comparable array
+      * @return merged Comparable array
+      */
+    public static Comparable[] merge(Comparable[] arrA, Comparable[] arrB) {
+        int[] retArr = new int[arrA.length + arrB.length];
+        int a = 0, b = 0, r = -1;
+        while(r < retArr.length - 1) {
+            retArr[++r] = (b > arrB.length - 1 || (a < arrA.length && arrA[a] < arrB[b])) ? arrA[a++] : arrB[b++];
+        }
+        return retArr;
+    }
+    
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("\nWhat is the size of your first array: ");
