@@ -68,7 +68,7 @@
 - Given a string containing a roman numeral representation of a number, generate the decimal representation.  eg. XIV = (10 + 4) = 14 [*My Solution*](RomanConversion.java)
 
 ###Dynamic Arrays
-- Implement an ArrayList in 3 different ways. Discuss the drawbacks/efficiencies of each.
+- Implement an ArrayList in 3 different ways. Discuss the drawbacks/efficiencies of each. [*My Solution*](DynamicArray.java)
 
 ###Linked Lists
 
