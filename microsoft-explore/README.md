@@ -65,7 +65,7 @@
 
 - Given a string representing a directory path, remove any redundancies to create the smallest equivalent string.  eg. /home/user/../otheruser/./folder/../folder can be simplified to /home/user/folder
 
-- Given a string containing a roman numeral representation of a number, generate the decimal representation.  eg. XIV = (10 + 4) = 14
+- Given a string containing a roman numeral representation of a number, generate the decimal representation.  eg. XIV = (10 + 4) = 14 [*My Solution*](RomanConversion.java)
 
 ###Dynamic Arrays
 - Implement an ArrayList in 3 different ways. Discuss the drawbacks/efficiencies of each.
