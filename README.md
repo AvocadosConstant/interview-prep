@@ -12,3 +12,4 @@ Use for your own practice! I definitely will be.
 --------------
 ##Programs
 #### - [Microsoft Explore](/microsoft-explore/)
+#### - [Bloomberg Software Engineer Internship](/bloomberg-se-intern/)

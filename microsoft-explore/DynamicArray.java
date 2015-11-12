@@ -95,17 +95,25 @@ public class DynamicArray {
     
     public static void main(String[] args) {
         DynamicArray arr = new DynamicArray();
-        System.out.println(arr.isEmpty());
+        System.out.println("Arr is empty: " + arr.isEmpty());
         arr.add(1);
         arr.add(2);
         arr.add(3);
         arr.add(4);
-        System.out.println(arr);
-        System.out.println(arr.get(0));
-        System.out.println(arr.remove(2));
+        arr.add(5);
+        arr.add(6);
+        arr.add(7);
+        arr.add(8);
+        arr.add(9);
+        arr.add(10);
+        arr.add(11);
         System.out.println(arr);
         System.out.println("size is " + arr.size());
-        System.out.println(arr.isEmpty());
+        System.out.println("Get elem at 0: " + arr.get(0));
+        System.out.println("Remove elem at 2: " + arr.remove(2));
+        System.out.println(arr);
+        System.out.println("size is " + arr.size());
+        System.out.println("Arr is empty: " + arr.isEmpty());
         System.out.println(arr.get(123));
     }
 }
