@@ -2,7 +2,7 @@
 #Microsoft Explore
 
 -----------
-##Testimonies (From GlassDoor etc.)
+##Testimonies
 
 ----------------
 ##Behavioral/Past Projects Questions
