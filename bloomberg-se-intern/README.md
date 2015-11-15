@@ -43,7 +43,7 @@
 - Implement a vector in C++.
 
 ###Linked Lists
-- Reverse a singly linked list. [*My Solution*](./linked-list/LinkedList.java)
+- Reverse a singly linked list. [*My Solution*](./linked-lists/LinkedList.java)
 
 ###Hash Tables
 
