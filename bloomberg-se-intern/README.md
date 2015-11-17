@@ -34,7 +34,7 @@
 ##Data Structures
 
 ###Arrays
-- Find the most frequently appeared element in an array.
+- Find the most frequently appeared element in an array. [*My Solution*](./arrays/ModeOfArray.java)
 
 ###Strings
 - Reverse a string.
