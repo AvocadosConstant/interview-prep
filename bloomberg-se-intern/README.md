@@ -31,6 +31,8 @@
 
 - What is a class?
 
+- Implement BigInteger.
+
 ##Data Structures
 
 ###Arrays
