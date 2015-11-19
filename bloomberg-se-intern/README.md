@@ -31,7 +31,7 @@
 
 - What is a class?
 
-- Implement BigInteger.
+- Implement BigInteger. [*My Solution*](./general/BigInt.java)
 
 ##Data Structures
 
