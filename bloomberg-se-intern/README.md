@@ -41,6 +41,7 @@
 ###Strings
 - Reverse a string.
 
+- Implement run length encoding on a string of letters. Ex. AAABBBBBBCDDE -> 3A6B1C2D1E [*My Solution*](./strings/RLE.java)
 ###Dynamic Arrays
 - Implement a vector in C++.
 
