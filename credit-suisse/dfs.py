@@ -7,7 +7,7 @@ graph = {'A': ['B', 'C'],
          'B': ['A', 'D', 'E'],
          'C': ['A', 'F'],
          'D': ['B'],
-         'E': ['B', 'F'],
+         'E': ['B', 'D'],
          'F': ['C', 'E']
          }
 
@@ -42,3 +42,18 @@ def dfs(graph, root, visited = None):
 
 print(dfs(graph, "B", visited = None))
 print(dfs_iter(graph, "B"))
+
+#path generator
+def dfs_paths(graph, root, target, path=None):
+    if path is None:
+        path = [root]
+
+    if root == target:
+        yield path
+
+    for vertex in [x for x in graph[root] if x not in path]:
+        for each_path in dfs_paths(graph, vertex, target, path + [vertex]):
+            yield each_path
+
+print("__________")
+print(list(dfs_paths(graph, "D", "F")))
